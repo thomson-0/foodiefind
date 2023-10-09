@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+html{
+    scroll-behavior: smooth;
+    margin: 0 15%;
+    font-family: 'Poppins', sans-serif;
+}
+
+@media (max-width: 1024px){
+    html{
+        scroll-behavior: smooth;
+        margin: 0 5%;
+        font-family: 'Poppins', sans-serif;
+    }
+}
